@@ -1,4 +1,4 @@
-export class Cliente {
+class Cliente {
     #cpf
     constructor(nome, cpf, endereco){
         this.nome = nome
@@ -56,7 +56,7 @@ export class Cliente {
 
 }
 
-export class Telefone {
+class Telefone {
     constructor(DDD, numero){
         this.DDD = DDD
         this.numero = numero
@@ -85,7 +85,7 @@ export class Telefone {
     }
 }
 
-export class Endereco {
+class Endereco {
     constructor(estado, cidade, rua, numero) {
         this.estado = estado
         this.cidade = cidade
@@ -125,7 +125,7 @@ export class Endereco {
     }
 }
 
-export class Empresa {
+class Empresa {
     #cnpj
     constructor(razaoSocial, nomeFantasia, cnpj, endereco){
         this.endereco = endereco
@@ -199,3 +199,5 @@ export class Empresa {
         '--------------\n' + cDetalhesBaixo;
     }   
 }
+
+export {Cliente, Telefone, Endereco, Empresa}
