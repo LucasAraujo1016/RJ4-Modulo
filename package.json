@@ -1,0 +1,11 @@
+{
+  "name": "rj4-modulo",
+  "version": "1.0.0",
+  "description": "Módulo pra atividade RJ4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
